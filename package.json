@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "algoliasearch": "^3.33.0",
     "dotenv": "^8.1.0",
     "gatsby": "^2.13.50",
     "gatsby-image": "^2.2.8",
