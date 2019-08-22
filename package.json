@@ -30,7 +30,8 @@
     "react-helmet": "^5.2.1",
     "react-instantsearch-dom": "^5.7.0",
     "styled-components": "^4.3.2",
-    "styled-icons": "^8.3.0"
+    "styled-icons": "^8.3.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
