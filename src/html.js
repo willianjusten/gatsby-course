@@ -40,6 +40,29 @@ export default function HTML(props) {
               }
 
               setTheme(preferredTheme || 'dark');
+
+              window.__onDisplayChange = function() {};
+
+              function setDisplay(newDisplay) {
+                window.__display = newDisplay;
+                preferredDisplay = newDisplay;
+                document.body.id = newDisplay;
+                window.__onDisplayChange(newDisplay);
+              }
+
+              var preferredDisplay;
+              try {
+                preferredDisplay = localStorage.getItem('display');
+              } catch (err) { }
+
+              window.__setPreferredDisplay = function(newDisplay) {
+                setDisplay(newDisplay);
+                try {
+                  localStorage.setItem('display', newDisplay);
+                } catch (err) {}
+              }
+
+              setDisplay(preferredDisplay || 'list');
             })();
           `,
           }}
