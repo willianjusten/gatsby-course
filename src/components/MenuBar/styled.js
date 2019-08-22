@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 export const MenuBarWrapper = styled.aside`
   align-items: center;
-  background: #192734;
-  border-left: 1px solid #38444d;
+  background: var(--mediumBackground);
+  border-left: 1px solid var(--borders);
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -25,7 +25,7 @@ export const MenuBarLink = styled(Link)`
 `
 
 export const MenuBarItem = styled.span`
-  color: #8899a6;
+  color: var(--texts);
   cursor: pointer;
   display: block;
   height: 3.75rem;
@@ -34,6 +34,6 @@ export const MenuBarItem = styled.span`
   width: 3.75rem;
 
   &:hover {
-    color: #1fa1f2;
+    color: var(--highlight);
   }
 `
