@@ -9,6 +9,7 @@
     "gatsby": "^3.1.1",
     "gatsby-image": "^3.1.0",
     "gatsby-plugin-algolia-search": "0.5.7",
+    "gatsby-plugin-image": "^1.1.1",
     "gatsby-plugin-manifest": "^3.1.0",
     "gatsby-plugin-netlify-cms": "^5.1.0",
     "gatsby-plugin-offline": "^4.1.0",
