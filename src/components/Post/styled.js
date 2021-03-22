@@ -193,7 +193,7 @@ export const MainContent = styled.section`
     font-weight: 700;
   }
 
-  .gatsby-resp-image-background-image {
+  /* .gatsby-resp-image-background-image {
     z-index: 2;
     opacity: 1 !important;
   }
@@ -210,7 +210,7 @@ export const MainContent = styled.section`
       opacity: 1;
       z-index: 3;
     }
-  }
+  } */
 
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;

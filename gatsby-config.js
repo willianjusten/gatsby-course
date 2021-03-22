@@ -41,7 +41,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: "gatsby-remark-relative-images-v2",
             options: {
               name: "uploads",
             },
